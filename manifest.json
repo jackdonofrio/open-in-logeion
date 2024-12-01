@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Logeion",
+  "version": "1.0",
+  "description": "Right-click a word to search it on Logeion.",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
